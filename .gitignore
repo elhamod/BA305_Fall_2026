@@ -1,0 +1,14 @@
+# OS / OneDrive sync artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+*fuse_hidden*
+
+# Office lock files
+~$*
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.virtual_documents/
