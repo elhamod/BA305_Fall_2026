@@ -14,7 +14,7 @@
 | **Thu Sep 10** (Session 3) | **Teams registered on Blackboard**, with your **ranked top three datasets** (§3) | Ungraded — **late penalty applies (§10)** |
 | **Fri Sep 11** | **Dataset allocation posted on Piazza** | — |
 | **Thu Sep 17** (Session 5) | **Proposal due** (1 page, PDF, one per team) — includes your **repo link** | Ungraded — **late penalty applies (§10)** |
-| ~Thu Sep 24 | Written feedback returned on every proposal | — |
+| \~Thu Sep 24 | Written feedback returned on every proposal | — |
 | **Fri Oct 16** (Session 14) | **Workshop 1** — progress check on work already underway | — |
 | **Mon Oct 19** | **Presentation-slot poll opens on Piazza** (§7) | — |
 | **Fri Oct 23, 11:59 PM** | **Poll closes** — no response means you are placed wherever there is room | — |
@@ -208,7 +208,7 @@ Each must be answerable from the data, and each must matter to somebody outside 
 
 A question also fails if it can be answered by a single chart or one summary statistic, or if it merely restates a method.
 
-| | |
+|  |  |
 | --- | --- |
 | ❌ | *"Can we run PCA on the listings?"* — restates a method, says nothing about what we would learn. |
 | ❌ | *"What factors affect price?"* — true of any dataset, and answerable with one correlation table. |
@@ -296,7 +296,7 @@ All submitted through Blackboard.
 
 Presentation slots are assigned from a **Piazza poll that closes Fri Oct 23** (§7). Once your slot is posted, your deck is due **11:59 PM the night before it** — so different teams have different slide deadlines.
 
-One deck per team, **submitted to the single `Project slides` assignment on Blackboard**. There is one assignment for all teams, not one per presentation day; **your own deadline is the night before your own slot**, and submission timestamps are checked against it. Submitting early is fine and encouraged; submitting after your slot's midnight is late under §10 no matter what the Blackboard page shows as open.
+One deck per team, **submitted to the single** `Project slides` **assignment on Blackboard**. There is one assignment for all teams, not one per presentation day; **your own deadline is the night before your own slot**, and submission timestamps are checked against it. Submitting early is fine and encouraged; submitting after your slot's midnight is late under §10 no matter what the Blackboard page shows as open.
 
 **Name the file exactly:** `Section_Team##_ProjectTitle.pptx` (or `.pdf`).
 
@@ -324,6 +324,7 @@ Your Nov 23 documentation package must contain this same, unmodified deck. Late 
 | Cloning, committing, pulling and pushing from VS Code — all buttons, no terminal | [Quickstart: use source control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git) and [Work with GitHub in VS Code](https://code.visualstudio.com/docs/sourcecontrol/github) |
 
 Either route is fine and you can mix them — Colab for running things, VS Code when you want to edit locally. What matters is only that **your own commits appear under your own account**.
+
 - The final notebook must **run top to bottom with no errors** from a fresh Colab runtime. Restart the runtime, Run All, and confirm before you submit.
 - Organized and commented well enough that a classmate could follow it.
 - **Submit the link to your repository — that is the whole code submission.** Do not upload notebooks or data files separately; the repository is what we open and what we grade.
@@ -331,8 +332,7 @@ Either route is fine and you can mix them — Colab for running things, VS Code 
 
 #### Attribution — three layers, and they must agree
 
-1. **A comment at the top of every section you wrote**, naming you:
-   `# --- Priya: preprocessing, missing-value handling, imputation choice ---`
+1. **A comment at the top of every section you wrote**, naming you: `# --- Priya: preprocessing, missing-value handling, imputation choice ---`
 2. **Your own commits** in the team repository.
 3. **The contribution table** in the report (§6.1).
 
@@ -354,9 +354,9 @@ Either route is fine and you can mix them — Colab for running things, VS Code 
 
 **Slots are assigned from a ranked-preference poll on Piazza, not first-come.** The three presentation days are not equivalent — a later day gives you more working time, and your slides lock at your slot — so a race to click would hand a real advantage to whoever refreshes fastest. Instead:
 
-- **Mon Oct 19** — the poll goes up on Piazza. It lists the possible orderings of the presentation days; your team picks the one it prefers. One response per student; your team's answer is the majority of its members.
+- **Mon Oct 19** — the poll goes up on Piazza. It lists the possible orderings of the presentation days; your team picks the one it prefers. One response per team — agree internally first, then have one member post it on the team's behalf.
 - **Fri Oct 23, 11:59 PM** — the poll closes. **A team that does not respond is treated as indifferent** and is placed wherever there is room.
-- Shortly after, the assignment is posted on Piazza. It maximizes the number of teams getting their first choice, and the allocation is run by a published script rather than by hand.
+- Shortly after, the assignment is posted on Piazza. It maximizes the number of teams getting their first choice, and the allocation is run by a script rather than by hand.
 
 Slots per session are below. **The format is identical in both sections** — every team in this course gets the same 7 + 8 minutes, so that every team is graded against the same standard.
 
@@ -367,19 +367,18 @@ Whichever slot you take, **your slides are due 11:59 PM the night before it** (�
 
 > **Extenuating circumstances.** If a religious observance, a documented accommodation, a medical situation, or an obligation you genuinely cannot move affects which day you can present, **contact the instructor on Piazza before the poll closes on Fri Oct 23** — not after slots are assigned. Conflicts raised before the deadline are accommodated wherever possible. Once slots are assigned they are final, so raise it early even if you are not certain yet.
 
-
 ### What goes in the 7 minutes
 
 Seven minutes is not enough to walk through your project. It is not supposed to be. **Your report carries the detail; the talk carries the argument.** Budget roughly:
 
-| | |
+|  |  |
 | --- | --- |
-| **The problem** — what you asked and why anyone should care | ~1.5 min |
-| **Your approach** — the dataset, and the shape of what you did | ~1.5 min |
-| **What you found** — the headline result for each question, and how confident you are in it | ~2.5 min |
-| **What it means** — the decision someone could make differently | ~1.5 min |
+| **The problem** — what you asked and why anyone should care | \~1.5 min |
+| **Your approach** — the dataset, and the shape of what you did | \~1.5 min |
+| **What you found** — the headline result for each question, and how confident you are in it | \~2.5 min |
+| **What it means** — the decision someone could make differently | \~1.5 min |
 
-**Deliberately minimize or leave out** of the talk: your preprocessing steps one by one, every hyperparameter you swept, every chart you made, and the code. Those belong in the report, and we will ask about them in Q&A. A team that spends two minutes on one-hot encoding has spent two minutes not making its argument.
+**Deliberately minimize or leave out** of the talk: your preprocessing steps one by one, every hyperparameter you swept, every chart you made, and the code. Those belong in the report, and we will ask about them in Q&A. A team that spends two minutes on one-hot encoding has spent two minutes not making its argument. You may add extra slides at the end of your deck to reference during Q&A only.
 
 **Explain the problem before the solution.** A talk that opens with model architecture has lost the room.
 
@@ -435,7 +434,7 @@ Every item uses the same six levels, and the levels describe **understanding**, 
 
 ### The items
 
-| # | Item | Pts | The question we are actually asking |
+| \# | Item | Pts | The question we are actually asking |
 | --- | --- | --- | --- |
 | 1 | **Goals — are they real, and are they yours?** | 10 | Are your two questions specific, answerable from this data, and worth answering? Can you say who would act on the answer and what they would do differently? Everyone starts from the same pool, so the question **is** the differentiator: a question lifted off the obvious column scores below one that took thought. |
 | 2 | **Method choices — do you know why you made them?** | 15 | Are the methods suited to the questions, and can you say why *these* rather than the alternatives you rejected? Naming a method is not the same as choosing one. This item is about the **choice**; whether you then ran it correctly is item 3. |
@@ -470,9 +469,11 @@ Any violation of the AI policy is treated as a serious honor code violation.
 
 ## 10. Late policy
 
-**10% of the project grade for each midnight that passes after the deadline**, applied to every dated project item — team registration, the ranked dataset choice, the proposal, the slides, and the report — and **capped at a 30% deduction** in every case.
+**10% of the project grade for each midnight that passes after the deadline**, applied to every dated project item — team registration, the ranked dataset choice, the proposal, the slides, and the report. **The cap depends on whether the item carries a grade of its own.**
 
-> The deduction stops growing at 30%. A deliverable is still expected after that: one never submitted at all takes the full 30% *and* forfeits its feedback and the points for its content.
+> **Ungraded items — team registration, the ranked dataset choice, and the proposal — are capped at a 30% deduction.** The deduction stops growing there, but the item is still expected: one never submitted at all takes the full 30% *and* forfeits its feedback.
+>
+> **Graded items — the slides and the written report — are not capped.** They keep losing 10% of the project grade for every midnight that passes, with no floor, so a deliverable ten days late costs you the entire project grade. There is no version of "hand it in whenever" that ends well here.
 
 Each item's deduction is applied once, to your project grade. For the slides, "the deadline" means **11:59 PM the night before your own slot**, not the night before the first presentation session. For the code, a commit pushed to your repository after **Mon Nov 23, 11:59 PM** counts as a late submission (§6.3).
 
