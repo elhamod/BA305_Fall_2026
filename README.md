@@ -87,7 +87,7 @@ All lab work runs in Google Colab in your browser; no local Python installation 
 - `lab1_python_tutorial.ipynb` — a self-paced Python/NumPy/pandas tutorial in the Session 01 folder of the course repository, **also required before the first class** (\~1.5–2 hours). It is not taught live; class time from Session 03 onward assumes you have run it. One cell raises an error on purpose — that is a teaching example, not a bug.
 - **Examplify** — the exam application used for Exam 1 and the Final. Installing it and confirming it runs on your laptop **well before Exam 1** is **your responsibility**; see the assessment details below. Questrom IT is the support channel if you have trouble, and can provide a loaner laptop.
 - **Bring a laptop to every session.** Don't forget your power cord.
-- **Course GitHub repository** — <https://github.com/elhamod/BA305_Fall_2026>. Slide decks, lab notebooks, datasets, and supplementary material live here. It is public: you do not need a GitHub account to read it, and nothing needs to be downloaded — each notebook opens directly in Colab.
+- **Course GitHub repository** — <https://github.com/elhamod/BA305_Fall_2026>. Slide decks, lab notebooks, and supplementary material live here. It is public: you do not need a GitHub account to read it, and nothing needs to be downloaded — each notebook opens directly in Colab.
 - Blackboard is the administrative hub: announcements, deliverables, and grades. Project deliverables are submitted there.
 
 ---
