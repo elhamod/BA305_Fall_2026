@@ -115,9 +115,9 @@ New to Piazza? See [how to post a question](https://support.piazza.com/support/s
 
 ### Office Hours
 
-Office hours — for the instructor and for any teaching assistants — are held **by appointment only**; there is no standing weekly slot. To request a meeting, send a private Piazza message that lists **at least three possible time frames, each at least two hours wide** — for example, "Tue 1:00 - 3:00 PM, Wed 10:00 AM - 12:00 PM, Thu 3:00 - 5:00 PM." Broad windows are what make it possible to find an overlap on the first try; a request naming a single time or a narrow slot rarely lands.
+Office hours — for the instructor and for any teaching assistants — are held **by appointment only**; there is no standing weekly slot. To request a meeting, send a private Piazza message that lists **at least three possible time frames, each at least two hours wide** — for example, "Tue 1:00 - 3:00 PM, Wed 10:00 AM - 12:00 PM, Thu 3:00 - 5:00 PM." Broad windows are what make it possible to find an overlap on the first try; a request naming a single time or a narrow slot rarely lands. **State the purpose of the visit in the same message** — grade revision, project help, discussion of course content, and so on. That is what allows a request to be routed to the right person and prioritized against the others waiting.
 
-**Requests that do not include three qualifying time frames will not be answered.** You will need to resubmit, which delays the meeting — often past the point where it would have been useful. Plan ahead and send your request well before the deadline you need help with. Meetings are held in the instructor's office (HAR 546D) unless another arrangement is agreed in advance.
+**Requests that do not include three qualifying time frames will not be answered.** You will need to resubmit, which delays the meeting — often past the point where it would have been useful. A request that does not state its purpose may also be delayed while we work out who should take it. Plan ahead and send your request well before the deadline you need help with. Meetings are held in the instructor's office (HAR 546D) unless another arrangement is agreed in advance.
 
 ### Attendance Policy
 
