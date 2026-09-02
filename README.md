@@ -11,7 +11,7 @@
 - **Instructor:** [Mohannad Elhamod](https://www.linkedin.com/in/mohannadelhamod/) (Contact exclusively through [Piazza](https://piazza.com/bu/fall2026/ba305))
 - **Office hours:** **By appointment only** — request an appointment through Piazza (see the Office Hours policy below)
 - **TA:** Aris Johnson (Contact exclusively through Piazza); TA office hours are also **by appointment only**, requested through Piazza
-- **Class time and place:** Tuesday / Thursday — **Section A** 9:30 – 10:45 AM, **Section B** 8:00 – 9:15 AM / HAR 404
+- **Class time and place:** Tuesday / Thursday — **Section A** 9:30 – 10:45 AM, **Section B** 8:00 – 9:15 AM / HAR 315
 - **Friday makeup session times:** **Section A** 8:00 – 9:15 PM, **Section B** 6:30 – 7:45 PM / HAR 419
 - **Term:** September 2 – December 10, 2026
 - **First class meeting:** Thursday, September 3, 2026
