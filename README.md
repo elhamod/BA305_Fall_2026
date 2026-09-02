@@ -75,9 +75,9 @@ This is a technical course taught to a business audience. The material stays gro
 
 There is no textbook to purchase and no assigned textbook reading.
 
-**Required readings** are short, free, online pieces. They are listed in the *Preparation & Deliverables* column of the course schedule below, and each is also linked from a `Required/` README in that session's folder in the course repository.
+**Required readings** are short, free, online pieces. They are listed in the *Preparation & Deliverables* column of the course schedule below.
 
-**Optional readings** are suggestions for going further. They are never assumed in class and never assessed. Session-specific chapter suggestions appear in the same column of the schedule, and supplementary material is placed in each session's `Optional/` folder in the course repository.
+**Optional readings** are suggestions for going further. They are never assumed in class and never assessed. Session-specific chapter suggestions appear in the same column of the schedule.
 
 ### Software and accounts
 
