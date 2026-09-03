@@ -88,7 +88,7 @@ All lab work runs in Google Colab in your browser; no local Python installation 
 - **Examplify** — the exam application used for Exam 1 and the Final. Installing it and confirming it runs on your laptop **well before Exam 1** is **your responsibility**; see the assessment details below. Questrom IT is the support channel if you have trouble, and can provide a loaner laptop.
 - **Bring a laptop to every session.** Don't forget your power cord.
 - **Course GitHub repository** — <https://github.com/elhamod/BA305_Fall_2026>. Slide decks, lab notebooks, and supplementary material live here. It is public: you do not need a GitHub account to read it, and nothing needs to be downloaded — each notebook opens directly in Colab.
-- Blackboard is the administrative hub: announcements, deliverables, and grades. Project deliverables are submitted there.
+- Blackboard is used for **submissions and grades**: project deliverables are submitted there, and grades are posted there. Announcements and all course communication happen on [Piazza](https://piazza.com/bu/fall2026/ba305).
 
 ---
 
@@ -249,13 +249,13 @@ Because the term ends on November 24, the **optimization block (Sessions 21, 23 
 
 ## Other Logistics
 
-**Blackboard usage.** Though several learning platforms and tools are used in this class, Blackboard acts as the hub from where all information can be found. All deliverables and their deadlines are posted through Blackboard. It is essential that you pay close attention to Piazza announcements, which contain critical information, and course materials are updated regularly. While a weekly announcement is generally sent as a reminder, it remains your responsibility to set up your alerts appropriately for any updates in the schedule or reading materials.
+**Blackboard usage.** Blackboard is used for **project submissions and grades**, and for material that BU hosts there. It is **not** the hub of this course. This syllabus, kept current in the [course GitHub repository](https://github.com/elhamod/BA305_Fall_2026), is the authoritative source for the schedule and for everything you are responsible for, and **all announcements and course communication happen on [Piazza](https://piazza.com/bu/fall2026/ba305)**. Nothing is announced through Blackboard, and messages sent through Blackboard will most likely not receive attention. It remains your responsibility to set your Piazza notifications appropriately so that you see updates to the schedule or the materials.
 
 ---
 
 ## Course Schedule
 
-> Note that while the following table provides a holistic overview of the course's schedule, it is only meant to give general guidance. The exact dates, topics, readings, and deliverables will be posted on Blackboard. Whenever there is a conflict between the syllabus and Blackboard, Blackboard is correct.
+> Note that while the following table provides a holistic overview of the course's schedule, it is only meant to give general guidance. Dates, topics, and deliverables may shift. The version of this syllabus in the [course GitHub repository](https://github.com/elhamod/BA305_Fall_2026) is always the correct one, and any change to it is announced on Piazza.
 
 Sessions are 75 minutes. Rows marked *(makeup session)* are not on the regular Tuesday/Thursday grid: they meet on a **Friday evening** — **Section A** 8:00 – 9:15 PM, **Section B** 6:30 – 7:45 PM — in **HAR 419**.
 
