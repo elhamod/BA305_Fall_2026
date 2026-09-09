@@ -13,15 +13,15 @@
 | **Thu Sep 3** (Session 1) | Project introduced in class | — |
 | **Thu Sep 10** (Session 3) | **Teams registered on Blackboard**, with your **ranked top three datasets** (§3) | Ungraded — **late penalty applies (§10)** |
 | **Fri Sep 11** | **Dataset allocation posted on Piazza** | — |
-| **Thu Sep 17** (Session 5) | **Proposal due** (1 page, PDF, one per team) — includes your **repo link** | Ungraded — **late penalty applies (§10)** |
+| **Thu Sep 17** (Session 5) | **Proposal due** (1 page, PDF, one per team) — includes your **repo link** | **Graded — 10% of the project grade (§8.1)** · late penalty applies (§10) |
 | \~Thu Sep 24 | Written feedback returned on every proposal | — |
 | **Fri Oct 16** (Session 14) | **Workshop 1** — progress check on work already underway | — |
 | **Mon Oct 19** | **Presentation-slot poll opens on Piazza** (§7) | — |
 | **Fri Oct 23, 11:59 PM** | **Poll closes** — no response means you are placed wherever there is room | — |
 | **Fri Nov 6** (Session 22) | **Workshop 2** — feedback on your analysis and your argument | — |
-| **11:59 PM, night before your slot** | **Slides due** — final version; **cannot be changed after you present** | Graded (§8) |
-| **Thu Nov 12 / Tue Nov 17 / Thu Nov 19** | **Presentations** (Sessions 24–26) — 7 min + 8 min Q&A | Graded (§8) |
-| **Mon Nov 23, 11:59 PM** | **Written report + code repository due** | Graded (§8) |
+| **11:59 PM, night before your slot** | **Slides due** — final version; **cannot be changed after you present** | Graded (§8.2) |
+| **Thu Nov 12 / Tue Nov 17 / Thu Nov 19** | **Presentations** (Sessions 24–26) — 7 min + 8 min Q&A | Graded (§8.2) |
+| **Mon Nov 23, 11:59 PM** | **Written report + code repository due** | Graded (§8.2) |
 
 There is **no weekly homework** in this course. The project takes its place, and it is expected to progress steadily from mid-September. The workshops are checkpoints on work already in flight — they are not the point at which the work should begin.
 
@@ -33,7 +33,7 @@ There is **no weekly homework** in this course. The project takes its place, and
 
 - **Teams are expected to be four students.** If the class size leaves a group who cannot form a team of four, come and talk to us — a different team size will be agreed for that group.
 - You form your own teams and **register on Blackboard by Thu Sep 10, 11:59 PM**. The registration form also asks for your **ranked top three datasets** from the pool in §3, so look through it before you register — not after.
-- **Registration is not graded, but it is subject to the project late policy (§10):** a team that registers after the deadline loses **10% of its project grade per day, to a maximum of 30%** — the same rule that applies to the proposal and the report. Register on time; it is the cheapest 30% you will ever protect.
+- **Registration is not graded, but it is subject to the project late policy (§10):** a team that registers after the deadline loses **10% of its project grade per day, to a maximum of 30%** — the same cap that applies to the proposal. (The slides and the report are not capped; see §10.) Register on time; it is the cheapest 30% you will ever protect.
 - If you are **not on a registered team** by Sep 10, you will be placed on one. In that case the deduction applies to **your individual project grade**, not to the grade of the team that receives you — a team that registered on time is not penalized for absorbing a latecomer.
 - **Every member owns the whole project.** Research, coding, writing, and presenting are shared. You may be asked in Q&A to explain any part of the work, including parts you did not personally write.
 
@@ -145,7 +145,7 @@ Drawn from the 1994 US Census by Ronny Kohavi and Barry Becker, one row per surv
 
 ## 4. The proposal — due Thu Sep 17
 
-**One page, PDF, one per team. Ungraded, but required.** Its only purpose is to get you written feedback while your direction can still change.
+**One page, PDF, one per team. Worth 10% of your project grade (§8.1).** Its purpose is to get you written feedback while your direction can still change.
 
 By Sep 17 you will have seen visualization and PCA and nothing else. **The proposal does not ask you to commit to methods.** You may change your methods, and even your questions, at any point up to Workshop 1 — just say so in your Workshop 1 update.
 
@@ -190,7 +190,7 @@ Team name:              Members (full names):
 
 ## 5. What the project must contain
 
-These are the **musts** — the floor, not the target. §8 does not score whether you ticked them off; it scores how well you understood the choices behind them and whether you achieved what you set out to do.
+These are the **musts** — the floor, not the target. §8.2 does not score whether you ticked them off; it scores how well you understood the choices behind them and whether you achieved what you set out to do.
 
 ### 5.1 Two questions
 
@@ -413,7 +413,30 @@ The **first question comes from your classmates**, not from the instructor. The 
 
 Q&A is not a cross-examination and it is not about typos. It is a professional conversation about a piece of work, which is what these conversations look like after you graduate.
 
-## 8. Grading rubric — 100 points
+## 8. Grading
+
+Your project grade has two parts:
+
+| | Weight |
+| --- | --- |
+| **The proposal** (§4) — pass / partial / fail | **10%** |
+| **The final deliverable** — the 100-point rubric in §8.2 | **90%** |
+
+### 8.1 The proposal — 10%
+
+**Three outcomes. Nothing in between.**
+
+| | | What it means |
+| --- | --- | --- |
+| **Pass** | **10%** | Every slot in the §4 template is answered with something specific to *your* dataset. Slot 4 shows you actually opened the file. Your question in slot 6 is one a generic team could not have asked. This is the expected outcome — most teams that take an hour over it land here. |
+| **Partial** | **5%** | Submitted, but thin: questions in a sentence that would fit any dataset, slot 4 written without opening the data, or a slot left effectively blank. |
+| **Fail** | **0%** | Not submitted, or with so little content that there is nothing to give feedback on. |
+
+**This is not a quality judgement on your questions.** The proposal is due before you have seen any predictive method, and its whole purpose is to let you change direction cheaply. A proposal whose questions we tell you to change is still a **Pass** if the page shows you did the work. A proposal that says *"we are not sure this is answerable from this data and here is why"* is a **Pass**.
+
+**A late proposal is separately penalized under §10**, and lateness and quality are scored independently: a thin proposal on time still scores 5%, and a strong proposal three days late still scores 10% before the §10 deduction is applied.
+
+### 8.2 The final deliverable — 100 points, 90% of the project grade
 
 This rubric scores two things: **whether you understood what you were doing**, and **whether you achieved the goals you set**.
 
@@ -421,16 +444,20 @@ It does not score whether you produced a checklist of artifacts. The requirement
 
 ### How each item is scored
 
-Every item uses the same six levels, and the levels describe **understanding**, not effort or volume. Note the gap at the bottom: a genuine attempt that misses the point still earns 70% of the item, but **an item you simply did not do is a zero**. There is no credit for absence.
+Every item uses the same six levels, and they score **understanding and effort together** — what you worked out, and what you actually did about it.
+
+**Volume is not on the scale at all.** More pages, more charts, more features, more methods: none of these move you up it. Effort here means work that went into getting something right, not work that produced more output.
+
+Note the gap at the bottom: a genuine attempt that misses the point still earns 70% of the item, but **an item you simply did not do is a zero**. There is no credit for absence.
 
 | Level | % of item | What it means |
 | --- | --- | --- |
-| **Excellent** | 100% | Correct, and justified with reasoning that shows why the alternatives were worse. The understanding is visible without anyone having to ask for it. |
-| **Good** | 92% | Correct, and justified when asked. Minor gaps. |
-| **Acceptable** | 87% | Defensible, but the reasoning is thin, generic, or borrowed. The work was done; the thinking is shallow. |
-| **Weak** | 80% | Present, but the reasoning is missing, wrong, or contradicts what the code actually does. |
-| **Minimal** | 70% | Attempted, but in a way that shows the idea was not understood. |
-| **None** | 0% | Not attempted at all. Nothing to grade. |
+| **Excellent** | 100% | **Done properly, and understood.** The work is complete and correct, and justified with reasoning that shows why the alternatives were worse. The understanding is visible without anyone having to ask for it. |
+| **Good** | 92% | **Done properly, and understood when asked.** Complete and correct; the reasoning is sound but you have to be asked for it. Minor gaps. |
+| **Acceptable** | 87% | **One side is thin.** Either the work was done and the thinking behind it is shallow, generic or borrowed; or the thinking is sound and the execution is visibly rushed at the edges. |
+| **Weak** | 80% | **One side is largely missing.** Either real work whose reasoning is absent, wrong, or contradicted by what the code actually does; or a sound idea left substantially half-built. |
+| **Minimal** | 70% | **Little of either.** Attempted, but thin enough that neither the effort nor the understanding comes through. |
+| **None** | 0% | **Not attempted at all.** Nothing to grade. |
 
 ### The items
 
@@ -469,11 +496,11 @@ Any violation of the AI policy is treated as a serious honor code violation.
 
 ## 10. Late policy
 
-**10% of the project grade for each midnight that passes after the deadline**, applied to every dated project item — team registration, the ranked dataset choice, the proposal, the slides, and the report. **The cap depends on whether the item carries a grade of its own.**
+**10% of the project grade for each midnight that passes after the deadline**, applied to every dated project item — team registration, the ranked dataset choice, the proposal, the slides, and the report. **The cap depends on whether the item is an early checkpoint or a final deliverable.**
 
-> **Ungraded items — team registration, the ranked dataset choice, and the proposal — are capped at a 30% deduction.** The deduction stops growing there, but the item is still expected: one never submitted at all takes the full 30% *and* forfeits its feedback.
+> **Early items — team registration, the ranked dataset choice, and the proposal — are capped at a 30% deduction.** The deduction stops growing there, but the item is still expected: one never submitted at all takes the full 30% *and* forfeits its feedback.
 >
-> **Graded items — the slides and the written report — are not capped.** They keep losing 10% of the project grade for every midnight that passes, with no floor, so a deliverable ten days late costs you the entire project grade. There is no version of "hand it in whenever" that ends well here.
+> **Final deliverables — the slides and the written report — are not capped.** They keep losing 10% of the project grade for every midnight that passes, with no floor, so a deliverable ten days late costs you the entire project grade. There is no version of "hand it in whenever" that ends well here.
 
 Each item's deduction is applied once, to your project grade. For the slides, "the deadline" means **11:59 PM the night before your own slot**, not the night before the first presentation session. For the code, a commit pushed to your repository after **Mon Nov 23, 11:59 PM** counts as a late submission (§6.3).
 
