@@ -473,7 +473,7 @@ Note the gap at the bottom: a genuine attempt that misses the point still earns 
 
 **Item 7 carries more weight than its 5 points suggest.** If your code does not run, your results **cannot be verified**, and item 3 is capped at *Minimal* on top of whatever item 7 itself loses. Restart your runtime and Run All before you submit.
 
-**There is no bonus.** Work beyond the course content is welcome, and it shows up where it belongs — in items 2, 4 and 5 — but it never compensates for a project that is not sound. Complexity is not a credential.
+**Work beyond the course content is welcome, and it shows up where it belongs** — in items 2, 4 and 5 — but it never compensates for a project that is not sound. Complexity is not a credential.
 
 ---
 
