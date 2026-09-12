@@ -2,9 +2,9 @@
 
 **Fall 2026 · Due Thu Sep 17, 11:59 PM · One page, PDF, one per team · Worth 10% of your project grade**
 
-> **This is a convenience handout.** Everything here is drawn from `PROJECT_DIRECTIVES.md` and the course syllabus, which remain the sources of truth. Section references (§) point back into the directives.
-
-\*&gt; *Last synced to* `PROJECT_DIRECTIVES.md` *and the syllabus: **2026-09-11**.* Where this page and the directives disagree, the directives are correct.
+> **This is a convenience handout.** Everything here is drawn from [`PROJECT_DIRECTIVES.md`](PROJECT_DIRECTIVES.md) and the course syllabus, which remain the sources of truth. Section references (§) point back into the directives, and where this page and the directives disagree, the directives are correct.
+>
+> *Last synced to `PROJECT_DIRECTIVES.md` and the syllabus: **2026-09-11**.*
 
 ---
 
@@ -14,18 +14,20 @@
 | --- | --- |
 | **Due** | **Thu Sep 17, 11:59 PM** (Session 5) |
 | **Where** | Blackboard — one submission per team |
-| **Format** | **One page, PDF.** Use the template in §3 below, verbatim |
+| **Format** | **One page, PDF.** Use the template in section 3 of this page, verbatim |
 | **Weight** | **10% of the project grade** — pass 10% / partial 5% / fail 0% (directives §8.1) |
 | **Scored on** | **Whether you did the work.** *Not* on whether your questions turn out to be right |
 | **Late** | 10% of the project grade per midnight, **capped at 30%** (directives §10) |
-| **Feedback** | Written feedback on every proposal, returned by **\~Thu Sep 24** |
+| **Feedback** | Written feedback on every proposal, returned around **Thu Sep 24** |
 | **Purpose** | To get you feedback while your direction can still change cheaply |
 
 ---
 
 ## 2. What must already be true before you write it
 
-Create the GitHub repository **before the proposal**; its link is slot 0. Public or private is your choice — **if private, add the instructor and the TAs as collaborators** (§6.3). **Remember, no protected attribute may be the thing you predict.** However, they may be discussed as a *fairness question about a model you built* — that is legitimate and interesting. (§3, rule 5).
+Create the GitHub repository **before the proposal**; its link is slot 0. Public or private is your choice — **if private, add the instructor and the TAs as collaborators** (§6.3).
+
+**Remember, no protected attribute may be the thing you predict.** Protected attributes may still be discussed as a *fairness question about a model you built* — that is legitimate and interesting (§3, rule 5).
 
 ---
 
@@ -170,7 +172,7 @@ The proposal is an **early item**, so its deduction is **capped at 30%** — as 
 
 - [ ] **Slot 3** — descriptive question in one sentence; what you expect the structure to tell you; who acts on it.
 
-- [ ] Both questions survive the two tests in §4 — you can say what result would surprise you, and neither question could be pasted onto a different dataset unchanged.
+- [ ] Both questions survive the two tests under *Slots 2 and 3* above — you can say what result would surprise you, and neither question could be pasted onto a different dataset unchanged.
 
 - [ ] **Slot 4** — written from the actual file, naming something concrete you saw in it.
 
