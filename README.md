@@ -12,7 +12,7 @@
 - **Office hours:** **By appointment only** — request an appointment through Piazza (see the Office Hours policy below)
 - **TA:** Aris Johnson (Contact exclusively through Piazza); TA office hours are also **by appointment only**, requested through Piazza
 - **Class time and place:** Tuesday / Thursday — **Section A** 9:30 – 10:45 AM, **Section B** 8:00 – 9:15 AM / HAR 315
-- **Friday makeup session times:** **Section A** 8:00 – 9:15 PM, **Section B** 6:30 – 7:45 PM / HAR 419
+- **Friday makeup session times:** **Section B** 6:30 – 7:45 PM, **Section A** 8:00 – 9:15 PM / HAR 419
 - **Term:** September 2 – December 10, 2026
 - **First class meeting:** Thursday, September 3, 2026
 - **Last class meeting:** Tuesday, November 24, 2026
@@ -125,7 +125,7 @@ Regular attendance and preparation are essential, as class sessions include hand
 
 Because in-class activities and discussion are central to this course and cannot be replicated afterward, your attendance and preparation are reflected in your participation grade (see the Course Evaluation & Expectations section below).
 
-- **Four sessions meet on a Friday evening** — **Fri Oct 2**, **Fri Oct 16**, **Fri Oct 30**, and **Fri Nov 6** (Section A 8:00 – 9:15 PM, Section B 6:30 – 7:45 PM, HAR 419) — in place of the December meetings. They are not graded for participation and carry no graded assessment; see *About the makeup sessions* above. Please put all four on your calendar now and raise any conflict with the instructor in the first two weeks of the semester.
+- **Four sessions meet on a Friday evening** — **Fri Oct 2**, **Fri Oct 16**, **Fri Oct 30**, and **Fri Nov 6** (Section B 6:30 – 7:45 PM, Section A 8:00 – 9:15 PM, HAR 419) — in place of the December meetings. They are not graded for participation and carry no graded assessment; see *About the makeup sessions* above. Please put all four on your calendar now and raise any conflict with the instructor in the first two weeks of the semester.
 - There is no separate attendance rule and no fixed number of permitted absences. Attendance matters only through participation: participation cannot be earned in a session you are not present for, so students who miss a substantial number of sessions will find it difficult to score well on that component.
 - Other assessments and in-class participation evaluation are not waived or postponed due to absence. Both exams are administered in class via Examplify on your own laptop. There are no makeup sittings as a matter of course; a **documented** medical or University-excused absence may be granted a makeup sitting at the instructor's discretion, arranged through Piazza **as early as possible** and normally before the exam. An undocumented absence from an exam receives a zero.
 
@@ -257,7 +257,7 @@ Because the term ends on November 24, the **optimization block (Sessions 21, 23 
 
 > Note that while the following table provides a holistic overview of the course's schedule, it is only meant to give general guidance. Dates, topics, and deliverables may shift. The version of this syllabus in the [course GitHub repository](https://github.com/elhamod/BA305_Fall_2026) is always the correct one, and any change to it is announced on Piazza.
 
-Sessions are 75 minutes. Rows marked *(makeup session)* are not on the regular Tuesday/Thursday grid: they meet on a **Friday evening** — **Section A** 8:00 – 9:15 PM, **Section B** 6:30 – 7:45 PM — in **HAR 419**.
+Sessions are 75 minutes. Rows marked *(makeup session)* are not on the regular Tuesday/Thursday grid: they meet on a **Friday evening** — **Section B** 6:30 – 7:45 PM, **Section A** 8:00 – 9:15 PM — in **HAR 419**.
 
 Optional-reading abbreviations used below: **DMBA** = *Data Mining for Business Analytics* (Shmueli, Bruce, Gedeck & Patel, Wiley, 2019) · **AE** = *The Analytics Edge* (Bertsimas, O'Hair & Pulleyblank, Dynamic Ideas, 2016) · **DSPP** = *Data Science Projects with Python* (Klosterman, Packt, 2019) · **SMDA** = *Spreadsheet Modeling and Decision Analysis* (Ragsdale, Cengage, 2010). **None of these must be purchased.**
 
