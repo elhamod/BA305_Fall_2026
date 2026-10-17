@@ -4,7 +4,7 @@
 
 > **This is a convenience handout.** Everything here is drawn from [`PROJECT_DIRECTIVES.md`](PROJECT_DIRECTIVES.md) and the course syllabus, which remain the sources of truth. Section references (§) point back into the directives, and where this page and the directives disagree, the directives are correct.
 >
-> *Last synced to `PROJECT_DIRECTIVES.md` and the syllabus: **2026-09-11**.*
+> *Last synced to `PROJECT_DIRECTIVES.md` and the syllabus: **2026-10-16**.*
 
 ---
 
@@ -74,7 +74,7 @@ Team name:              Members (full names):
 
 ### Slot 0 — Team repository
 
-The repo is the whole code submission in November, and it is one of the three ways we see who wrote what. Create it now, not in October. Every member will commit their own work from their own account; Colab's *File → Save a copy in GitHub* is the entire workflow. Getting-started links are in §6.3 of the directives.
+The repo is the whole code submission in November, and it is one of the three ways we see who wrote what. Create it now, not in October. Every member will commit their own work from their own account; Colab's *File → Save a copy in GitHub* is the entire workflow. It overwrites the file in the repo, so agree who edits which notebook and don't save over each other's work. Getting-started links are in §6.3 of the directives.
 
 ### Slots 2 and 3 — your two questions
 

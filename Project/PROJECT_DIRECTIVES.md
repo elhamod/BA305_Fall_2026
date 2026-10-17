@@ -36,6 +36,7 @@ There is **no weekly homework** in this course. The project takes its place, and
 - **Registration is not graded, but it is subject to the project late policy (§10):** a team that registers after the deadline loses **10% of its project grade per day, to a maximum of 30%** — the same cap that applies to the proposal. (The slides and the report are not capped; see §10.) Register on time; it is the cheapest 30% you will ever protect.
 - If you are **not on a registered team** by Sep 10, you will be placed on one. In that case the deduction applies to **your individual project grade**, not to the grade of the team that receives you — a team that registered on time is not penalized for absorbing a latecomer.
 - **Every member owns the whole project.** Research, coding, writing, and presenting are shared. You may be asked in Q&A to explain any part of the work, including parts you did not personally write.
+- **Doing the project for a teammate is not a favour.** If one or two members carry the work, it shows — in the contribution table, the commit history and Q&A — and it hurts both the team's grade and the individual grade of the member who did not contribute. Make sure everyone is contributing real technical work, and that everyone understands the project as a whole well enough to defend it.
 
 ---
 
@@ -197,7 +198,7 @@ These are the **musts** — the floor, not the target. §8.2 does not score whet
 Formulate **two questions of interest** from your dataset — **one predictive and one descriptive**.
 
 - The **predictive** question asks the data to estimate one variable from the others. You choose which variable; defending that choice is part of the work.
-- The **descriptive** question asks what is actually in the data — which variables move together, what the main axes of variation are, how the cases spread out and where they concentrate. The tools are the ones this course teaches for exactly that: **charts and visual analysis** (Sessions 2–3), **PCA** (Session 4), and **t-SNE or UMAP** (Session 5).
+- The **descriptive** question asks what is actually in the data — which variables move together, what the main axes of variation are, how the cases spread out and where they concentrate. The tools are the ones this course teaches for exactly that: **charts and visual analysis** (Sessions 2–3) and **PCA** (Session 4). Nonlinear methods such as t-SNE or UMAP are an optional extra, mentioned in Session 5 but not taught.
 
 Each must be answerable from the data, and each must matter to somebody outside this classroom. Nobody will tell you what these questions are.
 
@@ -218,8 +219,8 @@ A question also fails if it can be answered by a single chart or one summary sta
 
 For **each** question, apply and compare **at least two different methods**, chosen to suit the task rather than because they looked impressive.
 
-- **Predictive:** two of k-NN, Naïve Bayes, logistic regression, decision trees, regression trees, neural networks. *"How does a decision tree compare with k-NN here, and which would I deploy?"* is the shape of it.
-- **Descriptive:** two of a **structured visual analysis** (a deliberate set of charts that compare groups or track a relationship across a third variable — not one scatter plot), **PCA**, or a **t-SNE / UMAP embedding** — or the same method under two genuinely different choices (a different number of components, a different perplexity, scaled versus unscaled) where you argue for one. *"What do the charts say about how these groups differ, and does PCA agree once all the variables are in play at once?"* is the shape of it. **A pair of methods that are both charts is fine** if the two are genuinely different views of the question.
+- **Predictive:** two of k-NN, Naïve Bayes, logistic regression, decision trees, regression trees, neural networks. *"How does a decision tree compare with k-NN here, and which would I deploy?"* is the shape of it. **A third predictive method is optional**, and it is the natural way to fill a gap — a member whose share of the technical work is thin, or a weaker part of the project elsewhere.
+- **Descriptive:** two methods drawn from **structured visual analysis** (a deliberate set of charts that compare groups or track a relationship across a third variable — not one scatter plot) and **PCA**, with t-SNE or UMAP as an optional extra — or the same method under two genuinely different choices (a different number of components, scaled versus unscaled) where you argue for one. *"What do the charts say about how these groups differ, and does PCA agree once all the variables are in play at once?"* is the shape of it. **A pair of methods that are both charts is fine** if the two are genuinely different views of the question.
 
 ### 5.3 Data and pipeline, defined concretely
 
@@ -228,6 +229,8 @@ For **each** question, apply and compare **at least two different methods**, cho
 - what your **inputs** and **outputs** are;
 - the **data type** of each (categorical vs. numerical, and ordinal vs. nominal where it matters);
 - what **transformations and cleaning** you performed and why — missing values, one-hot encoding, normalization or standardization, thresholding, outliers, class imbalance.
+
+**Missing values: go beyond dropping them.** If a column is missing in a significant share of rows (say more than 5%), deleting those rows throws away data and can bias what is left. Try filling them in instead ([scikit-learn's guide to imputation](https://scikit-learn.org/stable/modules/impute.html)) and say which approach you chose and why.
 
 **Think carefully about which columns you use as features.** For every column, ask what it would let the model learn. Is a customer ID a useful pattern, or is it unique to that one row and therefore worthless for anything you have not already seen? Not every column in a file is information about the case; some are only labels for it. Deciding which is which is your job, and the pool contains columns that will tempt you.
 
@@ -242,26 +245,33 @@ For **each** question, apply and compare **at least two different methods**, cho
 **For the predictive question:**
 
 - Use **the right metric for the task**, and say why it is the right one.
-- **Accuracy alone is not sufficient.** Address class imbalance and choose a classification threshold deliberately, with an argument for the cutoff you picked.
+- **Compare to the right baseline.** Report what a model that ignores the inputs would score — always predicting the most common class, or the mean — next to both models, using scikit-learn's [dummy models](https://scikit-learn.org/stable/api/sklearn.dummy.html). Pick the baseline that suits your metric. A model that barely beats it has not learned much.
+- **Accuracy alone is not sufficient.** Address class imbalance and choose a classification threshold deliberately, with an argument for the cutoff you picked. If one class is rare, consider how to treat it — reweighting, resampling or moving the threshold ([an overview of the options](https://towardsdatascience.com/how-to-handle-imbalanced-datasets-in-machine-learning-projects-a95fa2cd491a/)).
 - **Diagnose the fit.** Is the model overfitting, underfitting, or fitting well? Show the evidence.
-- **Tune at least two hyperparameters**, and say how you tuned them (manual sweep, grid search, cross-validated search).
+- **Tune at least two hyperparameters per method**, and say how you tuned them (manual sweep, grid search, cross-validated search). As a guide: 5–10 values per hyperparameter over a sensible range (for example, *k* from 1 to 50 for k-NN, or a tree's maximum depth from 2 to 20), scored by cross-validation on the training data, and a few hours per method. If the best value sits at the edge of your range, widen the range. A grid that runs overnight is not more rigorous than a well-chosen sweep.
+- **If a regression problem will not perform, try it as classification.** When you have honestly tried everything and the regression is still poor, bin the same target into a few classes (low / medium / high, say) and model that. Comparing the two tells you something real about where the signal in your data is.
 - **Compare your two methods** on the same metric, on the same split, and say which you would deploy and why.
+- **Turn the prediction into a decision.** Put a rough cost or value on each kind of error, choose the threshold that does best by that measure, and compare the result with a simple policy that uses no model (act on everyone, or on no one).
+- **Diagnose your errors: which cases are hard, and why.** A single score tells you *how* wrong the model is, not *why*. Work through it in three steps — take, as a made-up example, a model that predicts which food-delivery orders will arrive late:
+  1. **Sanity-check a few cases you understand.** Look up some orders you can reason about (a short trip at 3 PM, a long one in a Friday-night rush) and check that the data and the predictions tell the story you would expect.
+  2. **Compare the cases it gets wrong with the ones it gets right.** Put the misclassified orders side by side with the correct ones and look for what sets them apart. Suppose almost every missed late order was placed in the rain.
+  3. **Act on what you find.** If the model has no information about the pattern, add a feature that captures it (weather); if one group behaves differently, model it separately or say the model should not be used for it; if the hard cases are simply too few, say so. Either way, report what the errors tell you — that is often the most useful thing a manager learns from your project.
 
 **For the descriptive question**, "evaluation" means showing that what you found is really in the data rather than produced by the way you chose to look at it.
 
-**Start with the charts, and take them seriously.** Two full sessions of this course are about reading and building them, and a descriptive answer carried by well-made figures is a complete answer — not a warm-up for something more impressive. PCA and the embeddings are there for when a chart cannot hold the number of variables you care about, not as a way of looking more advanced.
+**Start with the charts, and take them seriously.** Two full sessions of this course are about reading and building them, and a descriptive answer carried by well-made figures is a complete answer — not a warm-up for something more impressive. PCA is there for when a chart cannot hold the number of variables you care about, not as a way of looking more advanced.
 
 - **A chart is evidence, and it can be wrong the same way a model can.** In the Session 3 laptop case, a bar chart of store averages made a 2.8% spread look decisive; the same data as a boxplot showed within-store price ranges that swamped the difference entirely. Same data, opposite conclusion, and only one of them was honest. Ask of every figure you rely on: *would a different but equally reasonable chart of this data support a different conclusion?* If it would, show both and say why one is the right reading.
 - **Show the spread, not just the middle.** A bar of group means hides exactly what you need in order to know whether a difference matters. If you compare groups, show the variation inside them.
-- **Hold the other variables still.** A two-variable comparison that ignores an obvious third variable is the visual version of an unadjusted claim. Use colour, facets or small multiples to hold it fixed — and choose the encoding deliberately: a categorical palette for categories, a sequential one for quantities.
+- **Check for a third variable.** A link between two variables can really come from a third one you left out — e.g. customers who use more discount codes spend more, but only because long-time customers do both. Bring that variable into the chart, by colour or by one panel per group, and see whether the pattern survives.
 - **Match the chart to the data, and to the claim.** A line asserts that the space between two points means something. A truncated axis asserts that a small difference is a large one. A skewed variable plotted raw lets one extreme value draw the whole picture, where a log scale would show the pattern. Each of these is a claim you are making, not a formatting choice, and you can be asked to defend it.
 - **Be as willing to reject a premise as to confirm one.** "We looked, and the pattern people assume is there is not there" is a real finding, and often a better one than the pattern you went looking for.
 
 **Then, where the question genuinely needs more variables than a chart can hold:**
 
-- **Match the method to the data type.** PCA and the distance-based embeddings are defined for **numeric** features. One-hot encoding a categorical column and feeding it straight to PCA is not a neutral convenience — it silently asserts that every pair of categories sits the same distance apart. If your descriptive question is really about categorical data, either restrict to the numeric features and say so, or use a chart that handles categories honestly. Whichever you pick, justify it.
+- **Match the method to the data type.** PCA (like t-SNE and UMAP, if you try them) is defined for **numeric** features. One-hot encoding a categorical column and feeding it straight to PCA is not a neutral convenience — it silently asserts that every pair of categories sits the same distance apart. If your descriptive question is really about categorical data, either restrict to the numeric features and say so, or use a chart that handles categories honestly. Whichever you pick, justify it.
 - **Justify how much structure you kept** — how many principal components, and on what evidence. A scree plot and the cumulative explained variance are the arguments; "we took two because it plots nicely" is not one. And say whether you scaled: PCA changes completely on unscaled data.
-- **Read t-SNE and UMAP with the caution Session 5 gives them.** In these plots the distance between two blobs, and the size of a blob, are not interpretable. An embedding is a place to look for something, not evidence that it is there.
+- **If you try t-SNE or UMAP, treat what you see as tentative.** These plots can hint at groupings, but the gaps and sizes in them are not reliable, so check anything they suggest with charts or PCA.
 - **Bring it back to the variables.** Say what a component means in the language of the data, and show the thing you found in a plot of the original variables where you can. A structure that only exists after the transformation, and that you cannot point to in the data itself, is a fragile finding.
 - If the structure is weak — the variance is spread thinly across many components, the groups you expected do not separate — **say so**. That is a legitimate and interesting result, and it scores better than a picture squinted at until it agrees with you.
 
@@ -270,8 +280,10 @@ For **each** question, apply and compare **at least two different methods**, cho
 Do not just report numbers.
 
 - Report the **findings and insight** the numbers convey, in plain English that anyone in the room can follow. In your career you will be explaining this to people who do not know what an F1 score is.
+- **Say what drives the model.** Use feature importance or coefficients to name the inputs that matter most, and explain them in the language of the data. If a top feature makes no sense, check it for leakage (§5.3).
 - Use **visualizations** where they help you understand the data or communicate the result. **Every figure you show, in the report or on a slide, must have:** axis labels and a legend where applicable; a **one-line caption saying what the reader should conclude from it**; and, if it is complex, a pointer to the part that matters. A figure without a takeaway is decoration.
 - Tell the **story of how the model improved** — what you tried, what failed, what you changed, what it bought you. A project that reports only the final number is missing the most interesting part.
+- **Failed attempts count as much as successful ones.** Document all your efforts, not just what worked: the method that underperformed, the feature that did not help, the fix that made things worse, and what each one taught you. It shows your thought process and the work you put in. Keep the main story focused and put the fuller record in the appendix.
 
 ---
 
@@ -286,6 +298,8 @@ All submitted through Blackboard.
 - One report per team.
 
 **The report must be self-contained.** If a claim needs a figure or a number to be understood, that figure or number belongs in the report or its appendix. **We will not open your notebook to find something the report left out** — anything missing is simply missing, and is marked as such.
+
+**Write it as a story, for your client or your boss.** The report should read as one argument that flows logically from start to finish — the problem, what you did, what you found, and what the reader should do about it — not as a log of everything you ran in the order you ran it. Each section should lead naturally into the next, and someone who has never seen your notebook should be able to follow it and act on it.
 
 **Two sections are required in every report:**
 
@@ -313,6 +327,7 @@ Your Nov 23 documentation package must contain this same, unmodified deck. Late 
 - **Create the repo before the proposal** and put its link in the proposal (§4). Public or private is your choice — if private, add the instructor and the TAs as collaborators.
 - **Every member commits their own work from their own GitHub account.** One person uploading the whole project at the end defeats the purpose, and a commit history showing a single author invites hard questions in Q&A.
 - **You do not need the command line.** Colab has *File → Save a copy in GitHub*, which is the whole workflow: work in Colab, save to the repo under your own account when you finish a piece. Ask on Piazza if you get stuck; do not let a tooling problem eat a week.
+- **Do not overwrite each other.** *Save a copy in GitHub* replaces the whole file in the repo with your version, so if two of you edit the same notebook, the last save silently wipes the other's work. Agree who is editing which notebook (one notebook per person or per part is simplest), open the latest version from GitHub before you start rather than an old Colab copy, and tell your teammates when you have saved.
 
 **If you have never used GitHub before, start here.** None of this is taught in class — it is a tool, not course content — but you do need it to work, so these four short pages are the whole of what you need. Read them in the first week, not the week the report is due.
 
@@ -325,7 +340,7 @@ Your Nov 23 documentation package must contain this same, unmodified deck. Late 
 
 Either route is fine and you can mix them — Colab for running things, VS Code when you want to edit locally. What matters is only that **your own commits appear under your own account**.
 
-- The final notebook must **run top to bottom with no errors** from a fresh Colab runtime. Restart the runtime, Run All, and confirm before you submit.
+- The final notebooks must **run top to bottom with no errors** from a fresh Colab runtime, and must be **saved to the repo with every output showing** — every table, chart and printed result visible without anyone re-running a cell. Restart the runtime, Run All, check that nothing failed, and then save.
 - Organized and commented well enough that a classmate could follow it.
 - **Submit the link to your repository — that is the whole code submission.** Do not upload notebooks or data files separately; the repository is what we open and what we grade.
 - **The code is frozen at the deadline.** Nothing in the repository may be changed after **Mon Nov 23, 11:59 PM** — commit timestamps are visible to us, and a commit after the deadline is a late submission under §10 regardless of what it changed.
@@ -473,7 +488,7 @@ Note the gap at the bottom: a genuine attempt that misses the point still earns 
 
 **Item 7 carries more weight than its 5 points suggest.** If your code does not run, your results **cannot be verified**, and item 3 is capped at *Minimal* on top of whatever item 7 itself loses. Restart your runtime and Run All before you submit.
 
-**Work beyond the course content is welcome, and it shows up where it belongs** — in items 2, 4 and 5 — but it never compensates for a project that is not sound. Complexity is not a credential.
+**Work beyond the requirements is welcome, and it shows up where it belongs** — in items 2, 4 and 5. A third predictive method (§5.2) can make up for gaps elsewhere, but no extra work compensates for a result that cannot be believed (item 3). Complexity is not a credential.
 
 ---
 
