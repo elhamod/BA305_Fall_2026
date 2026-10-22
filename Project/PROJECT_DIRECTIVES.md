@@ -16,8 +16,8 @@
 | **Thu Sep 17** (Session 5) | **Proposal due** (1 page, PDF, one per team) — includes your **repo link** | **Graded — 10% of the project grade (§8.1)** · late penalty applies (§10) |
 | \~Thu Sep 24 | Written feedback returned on every proposal | — |
 | **Fri Oct 16** (Session 14) | **Workshop 1** — progress check on work already underway | — |
-| **Mon Oct 19** | **Presentation-slot poll opens on Piazza** (§7) | — |
-| **Fri Oct 23, 11:59 PM** | **Poll closes** — no response means you are placed wherever there is room | — |
+| **Tue Oct 20** | **Presentation-slot preference form opens** — link posted on Piazza (§7) | — |
+| **Sat Oct 24, 11:59 PM** | **Form closes** — no response means you are placed wherever there is room | — |
 | **Fri Nov 6** (Session 22) | **Workshop 2** — feedback on your analysis and your argument | — |
 | **11:59 PM, night before your slot** | **Slides due** — final version; **cannot be changed after you present** | Graded (§8.2) |
 | **Thu Nov 12 / Tue Nov 17 / Thu Nov 19** | **Presentations** (Sessions 24–26) — 7 min + 8 min Q&A | Graded (§8.2) |
@@ -308,7 +308,7 @@ All submitted through Blackboard.
 
 ### 6.2 Slides — due 11:59 PM, one day before your signed-up slot
 
-Presentation slots are assigned from a **Piazza poll that closes Fri Oct 23** (§7). Once your slot is posted, your deck is due **11:59 PM the night before it** — so different teams have different slide deadlines.
+Presentation slots are assigned from a **ranked-preference form that closes Sat Oct 24** (§7). Once your slot is posted, your deck is due **11:59 PM the night before it** — so different teams have different slide deadlines.
 
 One deck per team, **submitted to the single** `Project slides` **assignment on Blackboard**. There is one assignment for all teams, not one per presentation day; **your own deadline is the night before your own slot**, and submission timestamps are checked against it. Submitting early is fine and encouraged; submitting after your slot's midnight is late under §10 no matter what the Blackboard page shows as open.
 
@@ -367,20 +367,20 @@ Either route is fine and you can mix them — Colab for running things, VS Code 
 
 **Every member speaks, and each person presents their own work** — not a section someone else did. A team where one person narrates everything has told us something about how the work was divided.
 
-**Slots are assigned from a ranked-preference poll on Piazza, not first-come.** The three presentation days are not equivalent — a later day gives you more working time, and your slides lock at your slot — so a race to click would hand a real advantage to whoever refreshes fastest. Instead:
+**Slots are assigned from a ranked-preference form, not first-come.** The presentation sessions are not equivalent — a later day gives you more working time, and your slides lock at your slot — so a race to click would hand a real advantage to whoever refreshes fastest. Instead:
 
-- **Mon Oct 19** — the poll goes up on Piazza. It lists the possible orderings of the presentation days; your team picks the one it prefers. One response per team — agree internally first, then have one member post it on the team's behalf.
-- **Fri Oct 23, 11:59 PM** — the poll closes. **A team that does not respond is treated as indifferent** and is placed wherever there is room.
+- **Tue Oct 20** — a Google Form is linked from Piazza. It lists all **five** presentation sessions: the three in Section A's class time and the two in Section B's. Your team ranks all five, 1st to 5th. **Your own section's class time has priority:** if your 1st choice is a session in your own section's class time, you are guaranteed a slot in your own section's class time. **You may rank the other section's sessions too** — allowing teams to present across sections helps balance the load between sessions, but there is no guarantee your ranking will be respected. One response per team — agree internally first, then have one member submit it on the team's behalf.
+- **Sat Oct 24, 11:59 PM** — the form closes. **A team that does not respond is treated as indifferent** and is placed wherever there is room.
 - Shortly after, the assignment is posted on Piazza. It maximizes the number of teams getting their first choice, and the allocation is run by a script rather than by hand.
 
-Slots per session are below. **The format is identical in both sections** — every team in this course gets the same 7 + 8 minutes, so that every team is graded against the same standard.
+Presentation sessions are below; how many teams present in each is set when slots are assigned. **The format is identical in both sections** — every team in this course gets the same 7 + 8 minutes, so that every team is graded against the same standard.
 
-- **Section A (10 teams):** 4 slots in Session 24, 3 in Session 25, 3 in Session 26.
-- **Section B (4 teams):** 2 slots in Session 24 and 2 in Session 25. Session 26 is not a presentation session in Section B — it is an **open working session**: bring a data problem you are curious about and we will work on it together in class.
+- **Section A's class time, 9:30 – 10:45 AM:** Sessions 24, 25 and 26.
+- **Section B's class time, 8:00 – 9:15 AM:** Sessions 24 and 25. Session 26 is not a presentation session in Section B's class time — it is an **open working session**: bring a data problem you are curious about and we will work on it together in class.
 
 Whichever slot you take, **your slides are due 11:59 PM the night before it** (§6.2).
 
-> **Extenuating circumstances.** If a religious observance, a documented accommodation, a medical situation, or an obligation you genuinely cannot move affects which day you can present, **contact the instructor on Piazza before the poll closes on Fri Oct 23** — not after slots are assigned. Conflicts raised before the deadline are accommodated wherever possible. Once slots are assigned they are final, so raise it early even if you are not certain yet.
+> **Extenuating circumstances.** If a religious observance, a documented accommodation, a medical situation, or an obligation you genuinely cannot move affects which day you can present, **contact the instructor on Piazza before the form closes on Sat Oct 24** — not after slots are assigned. Conflicts raised before the deadline are accommodated wherever possible. Once slots are assigned they are final, so raise it early even if you are not certain yet.
 
 ### What goes in the 7 minutes
 
