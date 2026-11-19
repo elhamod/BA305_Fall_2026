@@ -21,7 +21,7 @@
 | **Fri Nov 6** (Session 22) | **Workshop 2** — feedback on your analysis and your argument | — |
 | **11:59 PM, night before your slot** | **Slides due** — final version; **cannot be changed after you present** | Graded (§8.2) |
 | **Thu Nov 12 / Tue Nov 17 / Thu Nov 19** | **Presentations** (Sessions 24–26) — 7 min + 8 min Q&A | Graded (§8.2) |
-| **Mon Nov 23, 11:59 PM** | **Written report + code repository due** | Graded (§8.2) |
+| **Mon Nov 30, 11:59 PM** | **Written report + code repository due** | Graded (§8.2) |
 
 There is **no weekly homework** in this course. The project takes its place, and it is expected to progress steadily from mid-September. The workshops are checkpoints on work already in flight — they are not the point at which the work should begin.
 
@@ -291,7 +291,9 @@ Do not just report numbers.
 
 All submitted through Blackboard.
 
-### 6.1 Written report — due Mon Nov 23, 11:59 PM
+### 6.1 Written report — due Mon Nov 30, 11:59 PM
+
+> **Moved from Mon Nov 23.** You may still submit before Thanksgiving. The extra week is time to make the report readable and complete — it is not a request for more experiments or extra work.
 
 - **A single PDF.** Times New Roman, 12 pt, 1-inch margins.
 - **Maximum 10 pages** for the main body, **including every figure you put in it**, and excluding the cover page and appendix. Be very selective about which figures are load-bearing for your story and which are secondary — the secondary ones belong in the appendix, and a page spent on a chart that carries no argument is a page you did not spend on the argument. The appendix has no page limit: put extended discussion, secondary figures, and sources there.
@@ -318,9 +320,9 @@ One deck per team, **submitted to the single** `Project slides` **assignment on 
 
 > **The slides you submit are the slides you present, and they are the slides that are graded. They cannot be changed afterwards.** You may not revise a deck after seeing the questions it drew or after hearing another team's talk. Submit the final version.
 
-Your Nov 23 documentation package must contain this same, unmodified deck. Late slides fall under §10.
+Your Nov 30 documentation package must contain this same, unmodified deck. Late slides fall under §10.
 
-### 6.3 Code — due Mon Nov 23, 11:59 PM
+### 6.3 Code — due Mon Nov 30, 11:59 PM
 
 **Your team keeps a GitHub repository for the project.** It is where your code lives, and it is one of the three ways we see who wrote what.
 
@@ -343,7 +345,7 @@ Either route is fine and you can mix them — Colab for running things, VS Code 
 - The final notebooks must **run top to bottom with no errors** from a fresh Colab runtime, and must be **saved to the repo with every output showing** — every table, chart and printed result visible without anyone re-running a cell. Restart the runtime, Run All, check that nothing failed, and then save.
 - Organized and commented well enough that a classmate could follow it.
 - **Submit the link to your repository — that is the whole code submission.** Do not upload notebooks or data files separately; the repository is what we open and what we grade.
-- **The code is frozen at the deadline.** Nothing in the repository may be changed after **Mon Nov 23, 11:59 PM** — commit timestamps are visible to us, and a commit after the deadline is a late submission under §10 regardless of what it changed.
+- **The code is frozen at the deadline.** Nothing in the repository may be changed after **Mon Nov 30, 11:59 PM** — commit timestamps are visible to us, and a commit after the deadline is a late submission under §10 regardless of what it changed.
 
 #### Attribution — three layers, and they must agree
 
@@ -517,7 +519,7 @@ Any violation of the AI policy is treated as a serious honor code violation.
 >
 > **Final deliverables — the slides and the written report — are not capped.** They keep losing 10% of the project grade for every midnight that passes, with no floor, so a deliverable ten days late costs you the entire project grade. There is no version of "hand it in whenever" that ends well here.
 
-Each item's deduction is applied once, to your project grade. For the slides, "the deadline" means **11:59 PM the night before your own slot**, not the night before the first presentation session. For the code, a commit pushed to your repository after **Mon Nov 23, 11:59 PM** counts as a late submission (§6.3).
+Each item's deduction is applied once, to your project grade. For the slides, "the deadline" means **11:59 PM the night before your own slot**, not the night before the first presentation session. For the code, a commit pushed to your repository after **Mon Nov 30, 11:59 PM** counts as a late submission (§6.3).
 
 ---
 
